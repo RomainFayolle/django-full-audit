@@ -4,3 +4,4 @@ from django.apps import AppConfig
 
 class DjangoFullAuditConfig(AppConfig):
     name = 'django_full_audit'
+    verbose_name = 'Django full audit'

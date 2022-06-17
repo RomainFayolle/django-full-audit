@@ -31,9 +31,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'django_full_audit',
-    
-    'django_full_audit.test_utils.test_app'
-    
+
+    'tests.apps.test_app'
+
 
     # if your app has other dependencies that need to be added to the site
     # they should be added here
@@ -47,6 +47,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django_full_audit.middleware.fullaudit.FullAuditMiddleware',
 ]
 
 ROOT_URLCONF = 'tests.urls'

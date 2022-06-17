@@ -50,8 +50,10 @@ Add django-full-audit's URL patterns:
 
 Features
 --------
-
-* TODO
+This project aim to:
+* Log all API requests
+* Log all logins, logouts, and password changes/resets
+* Indicate IP address, date, User, type of request and web browser version
 
 Running Tests
 -------------
