@@ -48,11 +48,11 @@ requirements = open('requirements.txt').readlines()
 setup(
     name='django_full_audit',
     version=version,
-    description="""Your project description goes here""",
+    description="""Audit package for Django projects.""",
     long_description=readme + '\n\n' + history,
     author='Romain Fayolle',
     author_email='romain.fayolle@fjnr.ca',
-    url='https://github.com/RomainFayolle/django_full_audit',
+    url='https://github.com/FJNR-inc/django-full-audit',
     packages=[
         'django_full_audit',
     ],
